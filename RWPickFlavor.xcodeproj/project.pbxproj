@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		0ABA3F061D10AAC3007E6F89 /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABA3F051D10AAC3007E6F89 /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AFCFCDC1D10AC06001B961E /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCFCDB1D10AC06001B961E /* RGBAColorFromString.swift */; };
+		0AFCFCDF1D10AC16001B961E /* PickFlavorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCFCDD1D10AC16001B961E /* PickFlavorDataSource.swift */; };
+		0AFCFCE01D10AC16001B961E /* PickFlavorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCFCDE1D10AC16001B961E /* PickFlavorViewController.swift */; };
+		0AFCFCE21D10AC1C001B961E /* FlavorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCFCE11D10AC1C001B961E /* FlavorFactory.swift */; };
+		0AFCFCE41D10AC22001B961E /* Flavor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCFCE31D10AC22001B961E /* Flavor.swift */; };
+		0AFCFCE81D10AC2E001B961E /* IceCreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCFCE51D10AC2E001B961E /* IceCreamView.swift */; };
+		0AFCFCE91D10AC2E001B961E /* ScoopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCFCE61D10AC2E001B961E /* ScoopCell.swift */; };
+		0AFCFCEA1D10AC2E001B961E /* ScoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFCFCE71D10AC2E001B961E /* ScoopView.swift */; };
+		0AFCFCEC1D10AC35001B961E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AFCFCEB1D10AC35001B961E /* Main.storyboard */; };
 		176CF7EEBEE77DDD5845AF65 /* Pods_RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4F91F2517C45735AD101DD /* Pods_RWPickFlavor.framework */; };
 /* End PBXBuildFile section */
 
@@ -15,6 +24,15 @@
 		0ABA3F021D10AAC3007E6F89 /* RWPickFlavor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RWPickFlavor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABA3F051D10AAC3007E6F89 /* RWPickFlavor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RWPickFlavor.h; sourceTree = "<group>"; };
 		0ABA3F071D10AAC3007E6F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AFCFCDB1D10AC06001B961E /* RGBAColorFromString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColorFromString.swift; sourceTree = "<group>"; };
+		0AFCFCDD1D10AC16001B961E /* PickFlavorDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorDataSource.swift; sourceTree = "<group>"; };
+		0AFCFCDE1D10AC16001B961E /* PickFlavorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickFlavorViewController.swift; sourceTree = "<group>"; };
+		0AFCFCE11D10AC1C001B961E /* FlavorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlavorFactory.swift; sourceTree = "<group>"; };
+		0AFCFCE31D10AC22001B961E /* Flavor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flavor.swift; sourceTree = "<group>"; };
+		0AFCFCE51D10AC2E001B961E /* IceCreamView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IceCreamView.swift; sourceTree = "<group>"; };
+		0AFCFCE61D10AC2E001B961E /* ScoopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopCell.swift; sourceTree = "<group>"; };
+		0AFCFCE71D10AC2E001B961E /* ScoopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoopView.swift; sourceTree = "<group>"; };
+		0AFCFCEB1D10AC35001B961E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3A4F91F2517C45735AD101DD /* Pods_RWPickFlavor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RWPickFlavor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		471D56F33759B507A53FD3C5 /* Pods-RWPickFlavor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFlavor.release.xcconfig"; path = "Pods/Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor.release.xcconfig"; sourceTree = "<group>"; };
 		9EA67DACF6FD56A40F7021ED /* Pods-RWPickFlavor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RWPickFlavor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RWPickFlavor/Pods-RWPickFlavor.debug.xcconfig"; sourceTree = "<group>"; };
@@ -53,10 +71,75 @@
 		0ABA3F041D10AAC3007E6F89 /* RWPickFlavor */ = {
 			isa = PBXGroup;
 			children = (
+				0AFCFCD81D10ABCF001B961E /* Views */,
+				0AFCFCD71D10ABCD001B961E /* Models */,
+				0AFCFCD61D10ABC8001B961E /* Factories */,
+				0AFCFCD51D10ABC4001B961E /* Controller */,
+				0AFCFCD41D10ABBD001B961E /* Categories */,
 				0ABA3F051D10AAC3007E6F89 /* RWPickFlavor.h */,
 				0ABA3F071D10AAC3007E6F89 /* Info.plist */,
 			);
 			path = RWPickFlavor;
+			sourceTree = "<group>";
+		};
+		0AFCFCD41D10ABBD001B961E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0AFCFCDB1D10AC06001B961E /* RGBAColorFromString.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		0AFCFCD51D10ABC4001B961E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0AFCFCDD1D10AC16001B961E /* PickFlavorDataSource.swift */,
+				0AFCFCDE1D10AC16001B961E /* PickFlavorViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0AFCFCD61D10ABC8001B961E /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				0AFCFCE11D10AC1C001B961E /* FlavorFactory.swift */,
+			);
+			name = Factories;
+			sourceTree = "<group>";
+		};
+		0AFCFCD71D10ABCD001B961E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0AFCFCE31D10AC22001B961E /* Flavor.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0AFCFCD81D10ABCF001B961E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0AFCFCDA1D10ABD9001B961E /* Storyboards & Nibs */,
+				0AFCFCD91D10ABD5001B961E /* Ice Cream */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		0AFCFCD91D10ABD5001B961E /* Ice Cream */ = {
+			isa = PBXGroup;
+			children = (
+				0AFCFCE51D10AC2E001B961E /* IceCreamView.swift */,
+				0AFCFCE61D10AC2E001B961E /* ScoopCell.swift */,
+				0AFCFCE71D10AC2E001B961E /* ScoopView.swift */,
+			);
+			name = "Ice Cream";
+			sourceTree = "<group>";
+		};
+		0AFCFCDA1D10ABD9001B961E /* Storyboards & Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				0AFCFCEB1D10AC35001B961E /* Main.storyboard */,
+			);
+			name = "Storyboards & Nibs";
 			sourceTree = "<group>";
 		};
 		152BAD05BABF3073F4EF53AF /* Pods */ = {
@@ -146,6 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFCFCEC1D10AC35001B961E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AFCFCE21D10AC1C001B961E /* FlavorFactory.swift in Sources */,
+				0AFCFCEA1D10AC2E001B961E /* ScoopView.swift in Sources */,
+				0AFCFCDC1D10AC06001B961E /* RGBAColorFromString.swift in Sources */,
+				0AFCFCE91D10AC2E001B961E /* ScoopCell.swift in Sources */,
+				0AFCFCE41D10AC22001B961E /* Flavor.swift in Sources */,
+				0AFCFCDF1D10AC16001B961E /* PickFlavorDataSource.swift in Sources */,
+				0AFCFCE01D10AC16001B961E /* PickFlavorViewController.swift in Sources */,
+				0AFCFCE81D10AC2E001B961E /* IceCreamView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
